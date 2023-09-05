@@ -238,7 +238,8 @@ namespace SaleManagementWinApp
             };
             frmFlowerDetail frmFlowerDetail = new frmFlowerDetail()
             {
-                IsUpdate = true
+                IsUpdate = true,
+                GetCurrentFlower = flower
             };
             frmFlowerDetail.Show();
         }
